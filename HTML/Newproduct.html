@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+ input[type=text]::placeholder {
+        text-align: center;
+}
+input[type=submit] {
+  width: 33%;
+  background-color: #45a049;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:"white";
+}
+
+input[type=reset] {
+  width: 33%;
+  background-color: #45a049;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset]:hover {
+  background-color:"white";
+}
+
+input[type=button] {
+  width: 33%;
+  background-color: #45a049;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color:"white";
+}
+div {
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+</style>
+<body bgcolor="#00c07f">
+
+<h2 align="center">New Product Registration</h2>
+
+<div>
+  <form action="/action_page.php">
+    
+    <input type="text" id="pid" name="Product" placeholder="Product"><br/>
+
+ 
+    <input type="text" id="pro" name="pid" placeholder="Product ID"><br/>
+    
+    
+    <input type="text" id="pro" name="section" placeholder="Section"><br/>
+    <input type="text" id="pro" name="rack no" placeholder="Rack No"><br/>
+ <input type="text" id="pro" name="pharmaceuticals" placeholder="Pharmaceuticals"><br/>
+     
+   
+     <input type="submit" value="SUBMIT">
+    <input type="reset" value="RESET">
+     <input type="button" value="CANCEL">
+    
+  </form>
+</div>
+
+</body>
+</html>

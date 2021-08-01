@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+
+  width: 30%;
+  padding: 12px 20px;
+  margin: auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+ input[type=text]::placeholder {
+        text-align: center;
+}
+
+      label {
+        display: block;
+        margin-bottom: 2px;
+        text-align: center;
+      }
+
+input[type=submit] {
+  width: 33%;
+  background-color:rgb(87, 87, 87);
+  color: white;
+  padding: 14px 20px;
+  margin: auto;
+ 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset] {
+  width: 33%;
+  background-color: rgb(87, 87, 87);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=button] {
+  width: 10%;
+  background-color:rgb(87, 87, 87) ;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+input[type=reset]:hover {
+  background-color: #45a049;
+}
+input[type=button]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+</style>
+<body bgcolor="rgb(87, 87, 87)">
+
+<h1 align="center"><b>Billing</b></h1>
+
+<div>
+    
+        
+    <input type="submit"onclick="window.location.href = 'billing.php';" value="Billing">
+    
+    
+</div>
+<input type="button"onclick="window.location.href = 'adminhome.html';"  value="Back">
+
+</body>
+</html>
